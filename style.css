@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	z-index: 2;
+	background-color: whitesmoke;
+	text-align: center;
+	align-items: center;
+	width: 100%;
+	padding: 25px;
+	position: fixed;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	font-size: 20px;
+	padding: 10px 200px 100px 200px;
+	background-color: white;
+	width: 100%;
+	position: relative;
+}
+
+footer {
+	background-color: whitesmoke;
+	text-align: center;
+	color: #9e0505;
+	width: 100%;
+	padding: 30px;
+	position: relative;
+}
+
+.inicio {
+	background: white;
+	padding: 90px 0px 0px 0px;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	max-width: 100%;
+}
+
+p {
+	background: white;
+	margin: 0 auto;
+	width: 1350px;
+	max-width: 100%;
+	padding: 10px 0;
+	text-align: justify;
+}
+
+img.zapzap {
+	width: 60px;
+	position: fixed;
+	z-index: 2;
+	right: 10px;
+	bottom: 10px;
+}
+
+strong {
+	color: #101fac;
+	text-decoration: underline;
+}
+
+.boxs {
+	padding: 120px 0px 0px 0px;
+	background-color: white;
+	text-align: center;
+	width: 100%;
+	height: 140px;
+}
+
+img.conteudo {
+	margin: 140px 0px 0px;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	height: 650px;
+}
+
+.internal {
+	background-color: whitesmoke;
+	height: 30px;
+}
+
+.button {
+	display: inline-flex;
+	height: 30px;
+	padding: 0;
+	outline: none;
+	border-radius: 15px;
+	overflow: hidden;
+	font-size: 20px;
+	font-weight: 800;
+	cursor: pointer;
+}
+
+.button__text,
+.button__icon {
+	
+	display: inline-flex;
+	font-family: "Montserrat", sans-serif;
+	border: black;
+	text-transform: uppercase;
+	align-items: center;
+	padding: 0 10px;
+	color: #101fac;
+	height: 100%;
+}
+
+.social_media {
+	display: inline-flex;
+	height: 20px;
+	margin: 10px;
+	border: none;
+	font-size: 30px;
+	cursor: pointer;
+}
